@@ -1,0 +1,33 @@
+.vd { 
+    margin: 0px 10px 0px 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 4vw;
+    margin: 1vw;
+    border: 0.3vw solid black;
+    font-family: Arial;
+    
+}
+.btn {
+    width: 20vw;
+    height: 4vw;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(40 40 40 / 1);
+    color: #dfdfdf;
+    border: 0px;
+    font-family: Arial;
+}
+.delete-checkbox {
+    float: left;
+    margin-left: -3vw;
+    margin-top: -3vw;
+    width: 2vw;
+    height: 2vw;
+}
