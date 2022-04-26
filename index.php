@@ -22,6 +22,8 @@
           $users->ShowAllUsers();
         ?>
     </div>
+    <hr class="solid">
+    <div class="footer"><label>Scandiweb Test assignment</label></div>
     <script src="app.js"></script>
 </body>
 </html>
