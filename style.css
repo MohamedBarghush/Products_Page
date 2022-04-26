@@ -31,3 +31,10 @@
     width: 2vw;
     height: 2vw;
 }
+.footer {
+    text-align: center;
+    margin: auto;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1em;
+}
