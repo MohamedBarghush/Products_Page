@@ -1,6 +1,6 @@
 <?php
 
-class Dbh {
+abstract class Dbh {
     private $serverName;
     private $userName;
     private $password;
