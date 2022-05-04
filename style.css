@@ -23,6 +23,7 @@
     color: #dfdfdf;
     border: 0px;
     font-family: Arial;
+    margin: 1rem;
 }
 .delete-checkbox {
     float: left;
@@ -31,10 +32,33 @@
     width: 2vw;
     height: 2vw;
 }
+
 .footer {
     text-align: center;
     margin: auto;
     font-family: Arial;
     font-weight: bold;
     font-size: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+    font-weight: bold;
+    font-family: Arial;
+    margin-bottom: 1rem;
+}
+
+#dvdForm {
+    display: none;
+}
+
+#furnitureForm {
+    display: none;
+}
+
+#bookForm {
+    display: none;
 }
