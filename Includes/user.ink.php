@@ -1,7 +1,7 @@
 <?php
 
-class User extends Dbh{
-    protected function GetAllUsers () {
+class Product extends Dbh{
+    protected function GetAllProducts () {
         $sql = "SELECT * FROM products";
         $result = $this->Connect()->query($sql);
         $numRows = $result->num_rows;
